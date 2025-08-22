@@ -1,8 +1,12 @@
  import React from 'react'
+ import "./Count.css"
+
  
  const Count = () => {
    return (
-     <div>Count</div>
+     <div className='main-container'>
+
+     </div>
    )
  }
  

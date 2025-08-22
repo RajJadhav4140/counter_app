@@ -1,8 +1,11 @@
 import React from 'react'
+import Counter from "./components/counter/Count"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <Counter/>
+    </div>
   )
 }
 
