@@ -2,4 +2,56 @@
     height: 300px;
     width: 800px;
     background-color: #aca8a8;
+    border-radius: 24px;
+}
+
+.main-container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.main-container h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+.btn-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 110px;
+    gap: 10px;
+    border-radius: 14px;
+    border: none;
+    border: 1px solid black;
+}
+
+.btn-1{
+  background-color: red;
+  font-size: 2em;
+}
+
+.btn-2{
+  background-color: green;
+  font-size: 1.5em;
+}
+
+.btn-3{
+    background-color: yellow;
+    font-size: 17px;
 }
