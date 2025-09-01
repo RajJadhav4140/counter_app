@@ -59,17 +59,27 @@
 
 @media (max-width: 480px) {
   .main-container {
-    width: 95%;
+    width: 220px;
+    height: 370px;
     padding: 15px;
   }
 
   .main-container h2 {
+    margin-top: 50px;
     font-size: 20px;
   }
 
   .main-container h3 {
+    padding-top: 50px;
     font-size: 18px;
   }
+
+  .btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    gap: 20px;
 
   .btn-container button {
     width: 100%;
