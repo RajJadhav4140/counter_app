@@ -55,3 +55,25 @@
     background-color: yellow;
     font-size: 17px;
 }
+
+
+@media (max-width: 480px) {
+  .main-container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .main-container h2 {
+    font-size: 20px;
+  }
+
+  .main-container h3 {
+    font-size: 18px;
+  }
+
+  .btn-container button {
+    width: 100%;
+    font-size: 0.9em;
+  }
+}
+ 
