@@ -12,7 +12,9 @@
     align-items: center;
     justify-content: center;
     padding-top: 40px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
 }
 
 .main-container h3{
